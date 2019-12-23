@@ -5,4 +5,4 @@ be implmented using Plsma.
 
 ### Demo Index
 
-- [Sentiment Analysis Workflow]()
+- [Sentiment Analysis Workflow](https://github.com/s20ai/plasma-demos/tree/master/sentiment-analysis-demo)
