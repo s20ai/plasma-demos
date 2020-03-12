@@ -18,6 +18,5 @@ def fetch_dataset(parameters):
 
 
 def main(args):
-    if args['operation'] == 'fetch_dataset':
-        output = fetch_dataset(args['parameters'])
+    output = fetch_dataset(args['parameters'])
     return output

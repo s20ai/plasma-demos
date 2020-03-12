@@ -20,6 +20,5 @@ def preprocessing(parameters):
 
 
 def main(args):
-    if args['operation'] == 'preprocessing':
-        output = preprocessing(args['parameters'])
+    output = preprocessing(args['parameters'])
     return output

@@ -19,6 +19,5 @@ def evaluate(parameters):
 
 
 def main(args):
-    if args['operation'] == 'evaluate':
-        output = evaluate(args['parameters'])
+    output = evaluate(args['parameters'])
     return output

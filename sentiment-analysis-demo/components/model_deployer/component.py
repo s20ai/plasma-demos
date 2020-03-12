@@ -43,6 +43,5 @@ def debug_server_init(parameters):
 
 
 def main(args):
-    if args['operation'] == 'deploy':
-        output = debug_server_init(args['parameters'])
+    output = debug_server_init(args['parameters'])
     return output

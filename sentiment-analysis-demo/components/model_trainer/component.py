@@ -58,6 +58,5 @@ def model_training(parameters):
 
 
 def main(args):
-    if args['operation'] == 'training':
-        output = model_training(args['parameters'])
+    output = model_training(args['parameters'])
     return output
