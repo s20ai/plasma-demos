@@ -14,7 +14,7 @@ max_review_length = None
 def prediction_output():
     input = str(request.json['summary'])
     current_dir = os.getcwd()
-    with open(current_dir + '/components/model_deployer' + '/imdb_word_index.json', 'r') as JSON:
+    with open(current_dir + '/components/model_prediction' + '/imdb_word_index.json', 'r') as JSON:
         word2index = json.load(JSON)
         words = input.split()
         sequence = []
@@ -43,5 +43,6 @@ def debug_server_init(parameters):
 
 
 def main(args):
-    output = debug_server_init(args['parameters'])
+    if args['operation'] == 'deploy':
+        output = debug_server_init(args['parameters'])
     return output

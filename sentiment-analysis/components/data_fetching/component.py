@@ -18,5 +18,6 @@ def fetch_dataset(parameters):
 
 
 def main(args):
-    output = fetch_dataset(args['parameters'])
-    return output
+    if args['component'] == 'data_fetching':
+        output = fetch_dataset(args['parameters'])
+        return output

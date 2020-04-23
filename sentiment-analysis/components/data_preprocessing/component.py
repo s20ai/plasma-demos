@@ -16,9 +16,11 @@ def preprocessing(parameters):
         "X_train": x_train,
         "X_test": x_test
     }
+    logging.info("Completed the data processing process")
     return result
 
 
 def main(args):
-    output = preprocessing(args['parameters'])
-    return output
+    if args['component'] == 'data_preprocessing':
+        output = preprocessing(args['parameters'])
+        return output

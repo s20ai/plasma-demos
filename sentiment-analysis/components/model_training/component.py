@@ -53,10 +53,10 @@ def model_training(parameters):
         verbose=1
     )
     logger.info("model training complete")
-    output = {'model': model}
-    return output
+    return {'model': model}
 
 
 def main(args):
-    output = model_training(args['parameters'])
-    return output
+    if args['component'] == 'model_training':
+        output = model_training(args['parameters'])
+        return output
