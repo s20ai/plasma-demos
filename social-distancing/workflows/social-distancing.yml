@@ -1,0 +1,12 @@
+name: Sentiment Analysis Demo
+description: Sentiment Analysis Demo Pipeline
+version: 0.1
+workflow:
+  inferencing:
+    video_path: "/videos/video.mp4"
+    output_video_path: "/videos/output.mp4"
+    yolov3_weight_path: "/models/yolov3.weights"
+    yolov3_configuration_path: "/models/yolov3.cfg"
+    coco_label_path: "/models/coco.names"
+    confid: 0.5
+    thresh: 0.5
