@@ -1,5 +1,5 @@
-name: Sentiment Analysis Demo
-description: Sentiment Analysis Demo Pipeline
+name: Face Mask Detection Demo
+description: Face Mask Detection Demo Pipeline
 version: 0.1
 workflow:
   training:
