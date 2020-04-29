@@ -1,5 +1,5 @@
-name: Sentiment Analysis Demo
-description: Sentiment Analysis Demo Pipeline
+name: Social Distancing Demo
+description: Social Distancing Demo Pipeline
 version: 0.1
 workflow:
   inferencing:
